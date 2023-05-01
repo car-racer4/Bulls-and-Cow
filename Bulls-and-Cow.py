@@ -1,1 +1,2 @@
-시작
+def cnt(try_num):
+    print(try_num)
