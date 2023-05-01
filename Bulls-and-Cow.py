@@ -15,7 +15,7 @@ def noDuplicates(num):
 
 def generateDigits():
     while True:
-        num = random.randint(1000, 9999)
+        num = random.randint(0000, 9999)
         if noDuplicates(num):
             return num
 
