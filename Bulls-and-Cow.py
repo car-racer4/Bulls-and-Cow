@@ -27,3 +27,11 @@ def get_cow_count(correct_number, input_number):
             counter += temp
 
     return counter - get_bull_count(correct_number, input_number)
+
+
+def four_numbers_input():
+	values = []
+	for i in range(4):
+		value = input(f"Enter number {i+1}: ")
+		values.append(int(value))
+	return values
